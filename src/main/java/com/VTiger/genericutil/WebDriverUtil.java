@@ -46,10 +46,10 @@ public class WebDriverUtil {
 		select.selectByValue(value);
 	}
 
-	public void selectValueFromDD(WebElement element,int index)
+	public void selectValueFromDD1(WebElement text,int ddfield)
 	{
-		Select select=new Select(element);
-		select.selectByIndex(index);
+		Select select=new Select(text);
+		select.selectByIndex(ddfield);
 	}
 	public void selectValueFromDD(String text,WebElement element)
 	{

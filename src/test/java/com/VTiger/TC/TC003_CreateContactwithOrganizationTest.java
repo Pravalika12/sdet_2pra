@@ -24,12 +24,13 @@ public class TC003_CreateContactwithOrganizationTest extends Baseclass{
 				hp.getContactslink().click();
 				ContactInfo ci=new ContactInfo(driver);
 				
-				ci.getCreatecontactlink().click();
+				
 				Createcontactinfo cci=new Createcontactinfo(driver);
+				cci.getCreatecontactlink().click();
 				String firstname=JavaUtil.objJavaUtil().getfirstName();
 				String lastname=JavaUtil.objJavaUtil().getlastName();
 				cci.createcontact(firstname, lastname, "Mrs.");
-				//cci.getPlusbutton().click();
+				
 				Orginfocontactwindow ccw=new Orginfocontactwindow(driver);
 				ccw.Organizationforcontact("sdeterr","Organization name");
 				WebDriverUtil util=new WebDriverUtil(driver);
@@ -66,8 +67,8 @@ Assert.assertEquals(lastname,text);
 		hp.getContactslink().click();
 		ContactInfo ci=new ContactInfo(driver);
 		
-		ci.getCreatecontactlink().click();
-		Createcontactinfo cci=new Createcontactinfo(driver);
+		
+		Createcontactinfo cci=new Createcontactinfo(driver);cci.getCreatecontactlink().click();
 		String lastname=JavaUtil.objJavaUtil().getlastName();
 		cci.createcontactwithln(lastname);
 		hp.getContactslink().click();

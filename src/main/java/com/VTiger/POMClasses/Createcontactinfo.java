@@ -13,7 +13,7 @@ WebDriver driver;
 
 	@FindBy(xpath="//a[text()='Contacts']")//rule 2
 	private WebElement contactlink;//rule 3
-	@FindBy(xpath="//img[@src=themes/softed/images/btnL3Add.gif]")
+	@FindBy(xpath="//img[@src='themes/softed/images/btnL3Add.gif']")
 	private WebElement createcontactlink;
 	//dropdown selection in name
 	
