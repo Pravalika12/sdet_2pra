@@ -43,22 +43,12 @@ public class TC002_CreateOrganizationWithDropdownTest extends Baseclass{
 		hp.getOrglink().click();
     oip.getSearchintextfield().sendKeys(orgname);
     WebDriverUtil util = new WebDriverUtil(driver);
-		util.selectValueFromDD("Organization Name",oip.getSearchfororgname());
+		util.selectValueFromDD2("Organization Name",oip.getSearchfororgname());
 		//click on submit
 		oip.getSaveorginfo().click();
 		//validating data//a[@title='Organizations' and [text()='"+orgname+"']
 		String val=driver.findElement(By.xpath("//a[@title='Organizations' and text()='"+orgname+"']")).getText();
 		
 		Assert.assertEquals(val,orgname);
-//		if(val.equalsIgnoreCase(orgname))
-//		{
-//			System.out.println("pass");
-//		}
-//		else
-//		{
-//			System.out.println("fail"); 
-//		}
-		
-
 	}
 }

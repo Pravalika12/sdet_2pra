@@ -40,23 +40,13 @@ public class TC001_CreateOrganizationTest extends Baseclass {
 		oip.getSearchintextfield().sendKeys(orgname);
 
 		WebDriverUtil util = new WebDriverUtil(driver);
-		util.selectValueFromDD("Organization Name",oip.getSearchfororgname());
+		util.selectValueFromDD2("Organization Name",oip.getSearchfororgname());
 		//select organization name
 		oip.getSaveorginfo().click();
 		//validating data
 		String val=driver.findElement(By.xpath("//a[@title='Organizations' and text()='"+orgname+"']")).getText();
 		Assert.assertEquals(val,orgname);
-		
-//		if(val.equalsIgnoreCase(orgname))
-//		{
-//			System.out.println("pass");
-//		}
-//		{
-//			System.out.println("fail"); 
-//		}
-//		Thread.sleep(2000);
-//		
-	}
+		}
 	
 	@Test(groups="regressionTest",retryAnalyzer=com.VTiger.genericutil.RetryAnalyzer.class)
 	public void createOrganizationTestwithphonenumber() throws InterruptedException
@@ -66,6 +56,7 @@ public class TC001_CreateOrganizationTest extends Baseclass {
 		String orgname = JavaUtil.objJavaUtil().getfirstName()+JavaUtil.objJavaUtil().genericRandomNumber();
 		String phonenumber = JavaUtil.objJavaUtil().getPhonenumber();
 		System.out.println(orgname);
+		System.out.println(phonenumber);
 		//create organizations
 		OrginfoPage oip = new OrginfoPage(driver);
 		oip.getCreateorglink().click();
@@ -82,23 +73,12 @@ public class TC001_CreateOrganizationTest extends Baseclass {
 
 		oip.getSearchintextfield().sendKeys(orgname);
 		WebDriverUtil util = new WebDriverUtil(driver);
-		util.selectValueFromDD("Organization Name",oip.getSearchfororgname());
+		util.selectValueFromDD2("Organization Name",oip.getSearchfororgname());
 		//select organization name
 		oip.getSaveorginfo().click();
-		
 		//validating data
-		String val=driver.findElement(By.xpath("//a[@title='Organizations' and [text()='"+orgname+"']")).getText();
+		String val=driver.findElement(By.xpath("//a[@title='Organizations' and text()='"+orgname+"']")).getText();
 		Assert.assertEquals(val,orgname);
-//		if(val.equalsIgnoreCase(orgname))
-//		{
-//			System.out.println("pass");
-//		}
-//		else
-//		{
-//			System.out.println("fail"); 
-//		}
-//		
-	
 	}
 }
 

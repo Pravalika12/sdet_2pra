@@ -49,7 +49,7 @@ public class OrginfoPage {//rule 1
 	{
 		searchintextfield.sendKeys(orgnamesearchfor);
 		WebDriverUtil webutil=new WebDriverUtil(driver);
-		webutil.selectValueFromDD(text,searchfororgDD);
+		webutil.selectValueFromDD2(text,searchfororgDD);
 		searchnowbtn.click();
 	}
 }

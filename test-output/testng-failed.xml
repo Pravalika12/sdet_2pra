@@ -9,7 +9,6 @@
           <include name="closeBrowser"/>
           <include name="createContactWithnames"/>
           <include name="loginToApp"/>
-          <include name="createContactwithLastname"/>
           <include name="disconnectFromDatabase"/>
           <include name="beforesuite"/>
           <include name="logoutFromApp"/>

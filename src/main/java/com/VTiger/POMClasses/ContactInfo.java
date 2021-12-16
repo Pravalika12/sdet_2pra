@@ -65,7 +65,7 @@ public void searchforcontact(String contactamesearchfor,String text)
 {
 	 searchintextfield.sendKeys(contactamesearchfor);
 	 WebDriverUtil webutil=new WebDriverUtil(driver);
-	 webutil.selectValueFromDD(text,searchforcontactDD);
+	 webutil.selectValueFromDD2(text,searchforcontactDD);
 	 searchnowbtn.click();
 }
 

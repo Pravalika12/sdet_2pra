@@ -51,7 +51,7 @@ public class WebDriverUtil {
 		Select select=new Select(text);
 		select.selectByIndex(ddfield);
 	}
-	public void selectValueFromDD(String text,WebElement element)
+	public void selectValueFromDD2(String text,WebElement element)
 	{
 		Select select=new Select(element);
 		select.selectByVisibleText(text);

@@ -61,7 +61,7 @@ WebDriver driver;
 	     {
 	    	 
 	    	 WebDriverUtil util=new WebDriverUtil(driver);
-	    	 util.selectValueFromDD(text, ddfield);
+	    	 util.selectValueFromDD2(text, ddfield);
 	    	 firstnametextfield.sendKeys(firstname);
 	    	lastnametextfield.sendKeys(lastname); 
 	     }	

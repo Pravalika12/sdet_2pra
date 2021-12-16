@@ -9,8 +9,10 @@ import com.VTiger.genericutil.WebDriverUtil;
 
 public class Orginfocontactwindow {
 	WebDriver driver;
-	@FindBy(id="search_txt")
+	@FindBy(name="search_text")
 	private WebElement searchtxtfield;
+	@FindBy(id="13")
+	private WebElement chooseorg;
 	
 	@FindBy(name="search_field")
 	private WebElement orgnamedd;
@@ -18,8 +20,7 @@ public class Orginfocontactwindow {
 	@FindBy(name="search")
 	private WebElement searchnowbtn;
 	
-	@FindBy(id="7")
-	private WebElement chooseorg;
+	
 	public WebElement getSearchtxtfield() {
 		return searchtxtfield;
 	}
@@ -43,9 +44,10 @@ public class Orginfocontactwindow {
 }
     public void Organizationforcontact(String orgname,String text)
     {
-    	searchtxtfield.sendKeys(orgname);
+    	
     	WebDriverUtil util=new WebDriverUtil(driver);
-    	util.selectValueFromDD(text, orgnamedd);
+    	searchtxtfield.sendKeys(orgname);
+    	util.selectValueFromDD2(text, orgnamedd);
     	searchnowbtn.click();
     	chooseorg.click();
     	
