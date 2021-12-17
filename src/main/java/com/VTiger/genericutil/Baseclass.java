@@ -39,8 +39,10 @@ public class Baseclass {
 	public void launchBrowser_url() throws IOException
 	{
 		
-		FileUtil prop=  FileUtil.objforFileUtil();
-		String browser = prop.readDataFromPropfile("browser");
+		//FileUtil prop=  FileUtil.objforFileUtil();
+		//String browser = prop.readDataFromPropfile("browser");
+		String browser=System.getProperty("BROWSER");
+		System.out.println(browser);
 
 		if(browser.equalsIgnoreCase("chrome"))
 		{
@@ -61,7 +63,7 @@ public class Baseclass {
 
 
 		//get Burl
-		driver.get(prop.readDataFromPropfile("url"));
+		driver.get(FileUtil.objforFileUtil().readDataFromPropfile("url"));
 		WebDriverUtil util=new WebDriverUtil(driver);
 		util.windowMaximize();
 		util.pageLoadTimeout();
