@@ -36,7 +36,6 @@ public class TC001_CreateOrganizationTest extends Baseclass {
 		Thread.sleep(2000);
 		//again click on organization is created successfully
 		hp.getOrglink().click();
-
 		oip.getSearchintextfield().sendKeys(orgname);
 
 		WebDriverUtil util = new WebDriverUtil(driver);

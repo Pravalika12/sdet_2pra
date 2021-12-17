@@ -2,78 +2,61 @@
 <testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T12:42:24 IST" name="Default suite" finished-at="2021-12-16T12:43:38 IST" duration-ms="73577">
+  <suite started-at="2021-12-17T10:35:09 IST" name="Default suite" finished-at="2021-12-17T10:36:15 IST" duration-ms="65930">
     <groups>
       <group name="regressionTest">
-        <method signature="TC001_CreateOrganizationTest.createOrganizationTestwithphonenumber()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" name="createOrganizationTestwithphonenumber" class="com.VTiger.TC.TC001_CreateOrganizationTest"/>
+        <method signature="TC003_CreateContactwithOrganizationTest.createContactWithnames()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" name="createContactWithnames" class="com.VTiger.TC.TC003_CreateContactwithOrganizationTest"/>
       </group> <!-- regressionTest -->
       <group name="smokeTest">
-        <method signature="TC001_CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" name="createOrganizationTest" class="com.VTiger.TC.TC001_CreateOrganizationTest"/>
+        <method signature="TC003_CreateContactwithOrganizationTest.createContactwithLastname()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" name="createContactwithLastname" class="com.VTiger.TC.TC003_CreateContactwithOrganizationTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2021-12-16T12:42:24 IST" name="Default test" finished-at="2021-12-16T12:43:38 IST" duration-ms="73577">
-      <class name="com.VTiger.TC.TC001_CreateOrganizationTest">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:42:24 IST" name="beforesuite" finished-at="2021-12-16T12:42:24 IST" duration-ms="7" status="PASS">
+    <test started-at="2021-12-17T10:35:09 IST" name="Default test" finished-at="2021-12-17T10:36:15 IST" duration-ms="65930">
+      <class name="com.VTiger.TC.TC003_CreateContactwithOrganizationTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:35:09 IST" name="beforesuite" finished-at="2021-12-17T10:35:09 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="launchBrowser_url()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:42:24 IST" name="launchBrowser_url" finished-at="2021-12-16T12:42:41 IST" duration-ms="17355" status="PASS">
+        <test-method is-config="true" signature="launchBrowser_url()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:35:09 IST" name="launchBrowser_url" finished-at="2021-12-17T10:35:28 IST" duration-ms="18343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser_url -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:42:41 IST" name="loginToApp" finished-at="2021-12-16T12:42:50 IST" duration-ms="8349" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:35:28 IST" name="loginToApp" finished-at="2021-12-17T10:35:37 IST" duration-ms="9773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="createOrganizationTest()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:42:50 IST" name="createOrganizationTest" finished-at="2021-12-16T12:43:15 IST" duration-ms="25569" status="PASS">
+        <test-method signature="createContactWithnames()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:35:37 IST" name="createContactWithnames" finished-at="2021-12-17T10:36:01 IST" duration-ms="23677" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:43:15 IST" name="logoutFromApp" finished-at="2021-12-16T12:43:38 IST" duration-ms="22258" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        </test-method> <!-- createContactWithnames -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:36:01 IST" name="logoutFromApp" finished-at="2021-12-17T10:36:05 IST" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:36:05 IST" name="loginToApp" finished-at="2021-12-17T10:36:15 IST" duration-ms="10219" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=96.0.4664.110)
+              <![CDATA[Unable to find element with locator By.name: user_name
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-OD0752Q', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7868272d06a1fc14dcab1ff8b66830c, clickElement {id=238abcf1-4386-415c-ae89-4f61b01e03c2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49929/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c7868272d06a1fc14dcab1ff8b66830c)] -> xpath: //a[text()='Sign Out']]
-Session ID: c7868272d06a1fc14dcab1ff8b66830c]]>
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=96.0.4664.110)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.name: user_name
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-OD0752Q', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7868272d06a1fc14dcab1ff8b66830c, clickElement {id=238abcf1-4386-415c-ae89-4f61b01e03c2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49929/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c7868272d06a1fc14dcab1ff8b66830c)] -> xpath: //a[text()='Sign Out']]
-Session ID: c7868272d06a1fc14dcab1ff8b66830c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at com.VTiger.POMClasses.HomePage.logoutfromapp(HomePage.java:57)
-at com.VTiger.genericutil.Baseclass.logoutFromApp(Baseclass.java:81)
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at com.VTiger.POMClasses.LoginPage.loginToApp(LoginPage.java:46)
+at com.VTiger.genericutil.Baseclass.loginToApp(Baseclass.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,8 +66,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -109,59 +91,34 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:43:38 IST" name="loginToApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639638818184" status="SKIP">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="createOrganizationTestwithphonenumber()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:43:38 IST" name="createOrganizationTestwithphonenumber" finished-at="2021-12-16T12:43:38 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method signature="createContactwithLastname()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:36:15 IST" name="createContactwithLastname" finished-at="2021-12-17T10:36:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=96.0.4664.110)
+              <![CDATA[Unable to find element with locator By.name: user_name
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-OD0752Q', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7868272d06a1fc14dcab1ff8b66830c, clickElement {id=238abcf1-4386-415c-ae89-4f61b01e03c2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49929/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c7868272d06a1fc14dcab1ff8b66830c)] -> xpath: //a[text()='Sign Out']]
-Session ID: c7868272d06a1fc14dcab1ff8b66830c]]>
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=96.0.4664.110)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.name: user_name
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'DESKTOP-OD0752Q', ip: '192.168.234.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7868272d06a1fc14dcab1ff8b66830c, clickElement {id=238abcf1-4386-415c-ae89-4f61b01e03c2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49929/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c7868272d06a1fc14dcab1ff8b66830c)] -> xpath: //a[text()='Sign Out']]
-Session ID: c7868272d06a1fc14dcab1ff8b66830c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at com.VTiger.POMClasses.HomePage.logoutfromapp(HomePage.java:57)
-at com.VTiger.genericutil.Baseclass.logoutFromApp(Baseclass.java:81)
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at com.VTiger.POMClasses.LoginPage.loginToApp(LoginPage.java:46)
+at com.VTiger.genericutil.Baseclass.loginToApp(Baseclass.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,8 +128,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
 at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -197,23 +153,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganizationTestwithphonenumber -->
-        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:43:38 IST" name="logoutFromApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639638818190" status="SKIP">
+        </test-method> <!-- createContactwithLastname -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:36:15 IST" name="logoutFromApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639717575756" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:43:38 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639638818192" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:36:15 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639717575757" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="disconnectFromDatabase()[pri:0, instance:com.VTiger.TC.TC001_CreateOrganizationTest@4dbb42b7]" started-at="2021-12-16T12:43:38 IST" name="disconnectFromDatabase" finished-at="2021-12-16T12:43:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="disconnectFromDatabase()[pri:0, instance:com.VTiger.TC.TC003_CreateContactwithOrganizationTest@4dbb42b7]" started-at="2021-12-17T10:36:15 IST" name="disconnectFromDatabase" finished-at="2021-12-17T10:36:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disconnectFromDatabase -->
-      </class> <!-- com.VTiger.TC.TC001_CreateOrganizationTest -->
+      </class> <!-- com.VTiger.TC.TC003_CreateContactwithOrganizationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

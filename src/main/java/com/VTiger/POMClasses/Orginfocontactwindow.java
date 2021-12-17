@@ -9,11 +9,18 @@ import com.VTiger.genericutil.WebDriverUtil;
 
 public class Orginfocontactwindow {
 	WebDriver driver;
-	@FindBy(name="search_text")
+	@FindBy(id="search_txt")
 	private WebElement searchtxtfield;
+	
 	@FindBy(id="13")
 	private WebElement chooseorg;
 	
+	@FindBy(xpath="//a[@href='javascript:window.close();']")
+	private WebElement selectorg;
+	
+	public WebElement getSelectorg() {
+		return selectorg;
+	}
 	@FindBy(name="search_field")
 	private WebElement orgnamedd;
 	

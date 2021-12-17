@@ -3,6 +3,7 @@ package com.VTiger.genericutil;
 import java.time.Duration;
 import java.util.Set;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -134,7 +135,16 @@ public class WebDriverUtil {
 			}
 		}
 	}
-
+public void clickonElement(WebElement element)
+{
+	 JavascriptExecutor js=(JavascriptExecutor)driver;
+	 js.executeScript("arguments[0].click();",element);
+}
+public void clickonElement(WebElement element,String text)
+{
+	 JavascriptExecutor jse=(JavascriptExecutor)driver;
+	 jse.executeScript("document.getElementById('"+element+"').setAttribute('value','"+text+"')");
+}
 
 
 }
