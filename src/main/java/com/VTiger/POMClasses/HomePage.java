@@ -55,7 +55,7 @@ public class HomePage {
 		util.moveToElement(signoutimg);
 		Thread.sleep(2000);
 		signoutlink.click();
-
+		driver.navigate().refresh();
 
 
 	}

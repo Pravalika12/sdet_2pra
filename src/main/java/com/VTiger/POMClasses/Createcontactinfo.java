@@ -14,7 +14,7 @@ WebDriver driver;
 	@FindBy(xpath="//a[text()='Contacts']")//rule 2
 	private WebElement contactlink;//rule 3
 	@FindBy(xpath="//img[@src='themes/softed/images/btnL3Add.gif']")
-	private WebElement createcontactlink;
+	private WebElement pluslinkfororg;
 	//dropdown selection in name
 	
 	@FindBy(name ="salutationtype")
@@ -26,12 +26,15 @@ WebDriver driver;
 	
 	@FindBy(xpath ="//img[@title='Select']")
 	private WebElement savebutton;
+
+
+	
 	
 	public WebElement getContactlink() {
 		return contactlink;
 	}
 	public WebElement getCreatecontactlink() {
-		return createcontactlink;
+		return pluslinkfororg;
 	}
 	public WebElement getDdfield() {
 		return ddfield;

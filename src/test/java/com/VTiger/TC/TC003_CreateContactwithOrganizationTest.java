@@ -21,6 +21,7 @@ public class TC003_CreateContactwithOrganizationTest extends Baseclass{
 		HomePage hp=new HomePage(driver);
 		hp.getContactslink().click();
 		ContactInfo ci=new ContactInfo(driver);
+		//ci.getCreatecontactlink().click();
 		Createcontactinfo cci = new Createcontactinfo(driver);
 		cci.getCreatecontactlink().click();
 		WebDriverUtil util=new WebDriverUtil(driver);
@@ -35,7 +36,7 @@ public class TC003_CreateContactwithOrganizationTest extends Baseclass{
 		og.getSearchtxtfield().sendKeys("sdeterr");
 		og.getSelectorg().click();
 		driver.switchTo().window(parent);
-		cci.getPlusbutton().click();
+		//cci.getPlusbutton().click();
 
 
 		///Orginfocontactwindow oicw=new Orginfocontactwindow(driver);
@@ -57,7 +58,8 @@ public class TC003_CreateContactwithOrganizationTest extends Baseclass{
 		HomePage hp=new HomePage(driver);
 		hp.getContactslink().click();
 		ContactInfo ci=new ContactInfo(driver);
-		Createcontactinfo cci=new Createcontactinfo(driver);cci.getCreatecontactlink().click();
+		Createcontactinfo cci=new Createcontactinfo(driver);
+		cci.getCreatecontactlink().click();
 		String lastname=JavaUtil.objJavaUtil().getlastName();
 		WebDriverUtil util=new WebDriverUtil(driver);
 		Orginfocontactwindow og=new Orginfocontactwindow(driver);
@@ -68,7 +70,7 @@ public class TC003_CreateContactwithOrganizationTest extends Baseclass{
 		og.getSearchtxtfield().sendKeys("sdeterr");
 		og.getSelectorg().click();
 		driver.switchTo().window(parent);
-		cci.getPlusbutton().click();
+		//cci.getPlusbutton().click();
 		//hp.getContactslink().click();
 		//ci.searchforcontact(lastname, "Last name");
 
