@@ -27,8 +27,6 @@ public class HomePage {
 		return orglink;
 	}
 
-
-
 	public WebElement getContactslink() {
 		return contactslink;
 	}

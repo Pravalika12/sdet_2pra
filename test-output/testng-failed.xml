@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.VTiger.TC.TC003_CreateContactwithOrganizationTest">
+      <class name="com.VTiger.genericutil.ExtentReportfortc">
         <methods>
-          <include name="launchBrowser_url"/>
-          <include name="closeBrowser"/>
-          <include name="loginToApp"/>
-          <include name="createContactwithLastname"/>
-          <include name="disconnectFromDatabase"/>
-          <include name="beforesuite"/>
-          <include name="logoutFromApp"/>
+          <include name="skipt"/>
+          <include name="getTitlefrommvn"/>
         </methods>
-      </class> <!-- com.VTiger.TC.TC003_CreateContactwithOrganizationTest -->
+      </class> <!-- com.VTiger.genericutil.ExtentReportfortc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

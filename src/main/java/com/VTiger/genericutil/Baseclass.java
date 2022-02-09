@@ -28,14 +28,14 @@ public class Baseclass {
 	public static WebDriver sdriver;
 	
 	public LoginPage lp;
-	@BeforeSuite(groups= {"smokeTest","regressionTest"})
+	@BeforeSuite
 	public void beforesuite()
 	{
 		System.out.println("connect to database");
 
 	}
- //@Parameters("Browser")
-	@BeforeClass(groups= {"smokeTest","regressionTest"})
+ 
+	@BeforeClass
 	public void launchBrowser_url() throws IOException
 	{
 		
@@ -69,25 +69,25 @@ public class Baseclass {
 		util.pageLoadTimeout();
 		sdriver=driver;
 	}
-	@BeforeMethod(groups= {"smokeTest","regressionTest"})
+	@BeforeMethod
 	public void loginToApp() throws IOException
 	{
-		lp=new LoginPage(driver);
+		LoginPage lp=new LoginPage(driver);
 		lp.loginToApp();
 
 	}
-	@AfterMethod(groups= {"smokeTest","regressionTest"})
+	@AfterMethod
 	public void logoutFromApp() throws InterruptedException
 	{
 		HomePage hp=new HomePage(driver);
 		hp.logoutfromapp();
 	}
-	@AfterClass(groups= {"smokeTest","regressionTest"})
+	@AfterClass
 	public void closeBrowser()
 	{
 		driver.close();
 	}
-	@AfterSuite(groups= {"smokeTest","regressionTest"})
+	@AfterSuite
 	public void disconnectFromDatabase()
 	{
 		System.out.println("disconnect from database");
